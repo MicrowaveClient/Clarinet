@@ -25,8 +25,8 @@ public final class Glade {
 
     private static Glade instance;
 
-    public static final String TITLE = "GOJIRAZILLA";
-    public static final int BUILD = 1;
+    public static final String TITLE = "Microwave[Glade]";
+    public static final String BUILD = "5";
 
     private File directory;
 
@@ -73,6 +73,9 @@ public final class Glade {
         Display.setTitle(String.format("%s b%s (master-1.8)", TITLE, BUILD));
 
         Printer.getPrinter().print(Level.INFO, "Finished client startup.");
+        Printer.getPrinter().print(Level.INFO, "THIS IS GLADE EDITED");
+        Printer.getPrinter().print(Level.INFO, "THIS IS GLADE EDITED");
+        Printer.getPrinter().print(Level.INFO, "THIS IS GLADE EDITED");
     }
 
     public static Glade getInstance() {
