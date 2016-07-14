@@ -86,7 +86,7 @@ public class CustomFont {
         }
         this.theGraphics.setColor(new Color(255, 255, 255, 0));
         this.theGraphics.fillRect(0, 0, 256, 256);
-        this.theGraphics.setColor(Color.red);
+        this.theGraphics.setColor(Color.white);
         this.theMetrics = this.theGraphics.getFontMetrics();
 
         float x = 5.0F;
